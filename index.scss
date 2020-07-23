@@ -1,0 +1,54 @@
+$color1: #4a3b85;
+$color2: #ad56cd;
+$color3: #61bbb6;
+$color4: #c3f2f0;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Prompt', arial;
+}
+
+svg {
+  padding-top: 30px;
+  box-shadow: 0 0 10px #ccc, 0 0 25px #ccc;
+}
+
+#title {
+  font-size: 25px;
+  font-weight: 700;
+  fill: $color1;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: rgba(74, 59, 133, 0.5);
+  border: 1px solid $color1;
+  border-radius: 3px;
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 3px 3px 5px rgba(74, 59, 133, 0.8);
+}
+
+circle {
+  stroke: #999;
+  stroke-width: 1;
+  opacity: 0.7;
+}
+
+g text {
+  font-family: 'Unica One', arial;
+}
+
+.legend-title,
+.legend-label {
+  font-family: 'Prompt', arial;
+  font-size: 14px;
+}
